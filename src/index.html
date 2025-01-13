@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robi Math - Master Math with Us!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #ff6347; /* Change color on hover */
+        }
+
+        #hero {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        #hero .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #000;
+            background-color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        #hero .cta-button:hover {
+            background-color: #ff6347; /* Change background on hover */
+            color: #fff; /* Change text color on hover */
+        }
+
+        .programs-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .program-slider {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .program-item {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #000;
+            background-color: #fff;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .program-item:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: #000;
+            background-color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ff6347; /* Change background on hover */
+            color: #fff; /* Change text color on hover */
+        }
+
+        #testimonials {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #testimonials .testimonial-slider {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        #testimonials .testimonial {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #000;
+            background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        #testimonials .testimonial:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+
+        #contact {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #contact-form input, #contact-form textarea, #contact-form button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+
+        #contact-form button {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #contact-form button:hover {
+            background-color: #ff6347; /* Change background color on hover */
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            border: 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .program-item,
+            #testimonials .testimonial {
+                flex: 1 1 calc(50% - 20px);
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header nav ul {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .program-item,
+            #testimonials .testimonial {
+                flex: 1 1 100%;
+            }
+
+            .cta-button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">Robi Math</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <h1>Master Math with Robi Math!</h1>
+        <p>Unlock your potential and excel in mathematics.</p>
+        <a href="https://www.facebook.com/robimathacademy" class="cta-button">Visit</a>
+    </div>
+</section>
+
+<section class="programs-section">
+    <h1>Our Programs (Only Math)</h1>
+    <div class="program-slider">
+        <div class="program-item">
+            <h2>HSC 1st Year</h2>
+            <p>Build your foundation in mathematics with expert guidance.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="program-item">
+            <h2>HSC 2nd Year</h2>
+            <p>Prepare for your HSC exams with advanced techniques.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="program-item">
+            <h2>HSC Final Preparation</h2>
+            <p>Comprehensive revision and practice for guaranteed success.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="program-item">
+            <h2>Engineering & University</h2>
+            <p>Targeted math preparation for engineering and university admissions.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="program-item">
+            <h2>Admission Program</h2>
+            <p>Specialized training for competitive admission tests.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Students Say</h2>
+    <div class="testimonial-slider">
+        <div class="testimonial">
+            <p>"Robi Math helped me score an A+ in my math exams!"</p>
+            <span>- Asiful Islam</span>
+        </div>
+        <div class="testimonial">
+            <p>"The best math coaching center I've ever attended."</p>
+            <span>- Shohanur Rahman</span>
+        </div>
+        <div class="testimonial">
+            <p>"I gained so much confidence in my math skills!"</p>
+            <span>- Rahul Sarker</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-details">
+        <h2>Contact Us</h2>
+        <p>Email: info@robimath.com</p>
+        <p>Phone:01797771947</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Asiful Islam. All rights reserved.</p>
+</footer>
+</body>
+</html>
