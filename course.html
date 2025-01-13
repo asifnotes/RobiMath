@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Programs - Robi Math Academic & Admission Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-color: #fff;
+        }
+        .programs-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .programs-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .programs-section p.tagline {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .course-item {
+            border: 1px solid #000;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .course-item:hover {
+            transform: scale(1.05);
+        }
+        .course-item h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .course-item p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .cta-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+        .contact-info {
+            margin-top: 30px;
+            font-size: 1em;
+            line-height: 1.8;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .course-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="programs-section">
+    <h1>Our Programs (Only Math)</h1>
+    <p class="tagline">We Have Math Experts</p>
+    <div class="course-list">
+        <div class="course-item">
+            <h2>HSC 1st Year</h2>
+            <p>Build your foundation in mathematics with expert guidance.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="course-item">
+            <h2>HSC 2nd Year</h2>
+            <p>Prepare for your HSC exams with advanced techniques.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="course-item">
+            <h2>HSC Final Preparation</h2>
+            <p>Comprehensive revision and practice for guaranteed success.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="course-item">
+            <h2>Engineering & University</h2>
+            <p>Targeted math preparation for engineering and university admissions.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="course-item">
+            <h2>Admission Program</h2>
+            <p>Specialized training for competitive admission tests.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <p>Call for more info: <strong>017 97 771 947</strong></p>
+        <p>Address: 159/A, Kazipara, Rajshahi</p>
+    </div>
+</section>
+<script>
+    const buttons = document.querySelectorAll('.cta-button');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Thank you for your interest! Visit our enrollment page for more details.');
+        });
+    });
+</script>
+</body>
+</html>
