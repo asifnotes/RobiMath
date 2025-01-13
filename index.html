@@ -47,7 +47,7 @@
         }
 
         header nav ul li a:hover {
-            color: #ff6347; /* Change color on hover */
+            color: #ff6347;
         }
 
         #hero {
@@ -70,8 +70,8 @@
         }
 
         #hero .cta-button:hover {
-            background-color: #ff6347; /* Change background on hover */
-            color: #fff; /* Change text color on hover */
+            background-color: #ff6347;
+            color: #fff;
         }
 
         .programs-section {
@@ -97,7 +97,7 @@
         }
 
         .program-item:hover {
-            transform: scale(1.05); /* Scale effect on hover */
+            transform: scale(1.05);
         }
 
         .cta-button {
@@ -113,8 +113,8 @@
         }
 
         .cta-button:hover {
-            background-color: #ff6347; /* Change background on hover */
-            color: #fff; /* Change text color on hover */
+            background-color: #ff6347;
+            color: #fff;
         }
 
         #testimonials {
@@ -139,7 +139,7 @@
         }
 
         #testimonials .testimonial:hover {
-            transform: scale(1.05); /* Scale effect on hover */
+            transform: scale(1.05);
         }
 
         #contact {
@@ -169,7 +169,7 @@
         }
 
         #contact-form button:hover {
-            background-color: #ff6347; /* Change background color on hover */
+            background-color: #ff6347;
         }
 
         footer {
@@ -188,28 +188,42 @@
         @media (max-width: 768px) {
             .program-item,
             #testimonials .testimonial {
-                flex: 1 1 calc(50% - 20px);
+                flex: 1 1 calc(50% - 10px);
             }
 
             header {
                 flex-direction: column;
-                text-align: center;
+                align-items: center;
             }
 
             header nav ul {
                 flex-direction: column;
+                align-items: center;
+            }
+
+            header nav ul li {
+                margin: 5px 0;
             }
         }
 
         @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+
             .program-item,
             #testimonials .testimonial {
                 flex: 1 1 100%;
             }
 
             .cta-button {
-                padding: 8px 16px;
+                padding: 8px 12px;
                 font-size: 14px;
+            }
+
+            header .logo {
+                font-size: 1.2em;
             }
         }
     </style>
@@ -289,7 +303,7 @@
     <div class="contact-details">
         <h2>Contact Us</h2>
         <p>Email: info@robimath.com</p>
-        <p>Phone:01797771947</p>
+        <p>Phone: 01797771947</p>
     </div>
 </section>
 
