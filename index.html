@@ -5,230 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robi Math - Master Math with Us!</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #000;
-            background-color: #fff;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
-        header nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        header nav ul li {
-            margin: 0 10px;
-        }
-
-        header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        header nav ul li a:hover {
-            color: #ff6347;
-        }
-
-        #hero {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        #hero .cta-button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            color: #000;
-            background-color: #fff;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        #hero .cta-button:hover {
-            background-color: #ff6347;
-            color: #fff;
-        }
-
-        .programs-section {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .program-slider {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .program-item {
-            flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #000;
-            background-color: #fff;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .program-item:hover {
-            transform: scale(1.05);
-        }
-
-        .cta-button {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            color: #000;
-            background-color: #fff;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background-color: #ff6347;
-            color: #fff;
-        }
-
-        #testimonials {
-            padding: 20px;
-            text-align: center;
-        }
-
-        #testimonials .testimonial-slider {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        #testimonials .testimonial {
-            flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #000;
-            background-color: #fff;
-            transition: transform 0.3s ease;
-        }
-
-        #testimonials .testimonial:hover {
-            transform: scale(1.05);
-        }
-
-        #contact {
-            padding: 20px;
-            text-align: center;
-        }
-
-        #contact-form {
-            max-width: 400px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        #contact-form input, #contact-form textarea, #contact-form button {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #000;
-        }
-
-        #contact-form button {
-            background-color: #000;
-            color: #fff;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        #contact-form button:hover {
-            background-color: #ff6347;
-        }
-
-        footer {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        iframe {
-            width: 100%;
-            border: 0;
-        }
-
-        /* Media Queries for Responsiveness */
-        @media (max-width: 768px) {
-            .program-item,
-            #testimonials .testimonial {
-                flex: 1 1 calc(50% - 10px);
-            }
-
-            header {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            header nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            header nav ul li {
-                margin: 5px 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-            body {
-                font-size: 14px;
-                line-height: 1.4;
-            }
-
-            .program-item,
-            #testimonials .testimonial {
-                flex: 1 1 100%;
-            }
-
-            .cta-button {
-                padding: 8px 12px;
-                font-size: 14px;
-            }
-
-            header .logo {
-                font-size: 1.2em;
-            }
-        }
-    </style>
 </head>
 <body>
+<!-- Header Section -->
 <header>
     <div class="logo">Robi Math</div>
     <nav>
@@ -237,11 +16,11 @@
             <li><a href="about.html">About</a></li>
             <li><a href="course.html">Courses</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
-
+<!-- Hero Section -->
 <section id="hero">
     <div class="hero-content">
         <h1>Master Math with Robi Math!</h1>
@@ -250,6 +29,10 @@
     </div>
 </section>
 
+<section id="welcome-marquee">
+    <marquee behavior="scroll" direction="left">Welcome to Robi Math! It will be your Best Choice For HSC Math</marquee>
+</section>
+<!-- Programs Section -->
 <section class="programs-section">
     <h1>Our Programs (Only Math)</h1>
     <div class="program-slider">
@@ -281,6 +64,7 @@
     </div>
 </section>
 
+<!-- Testimonials Section -->
 <section id="testimonials">
     <h2>What Our Students Say</h2>
     <div class="testimonial-slider">
@@ -299,6 +83,7 @@
     </div>
 </section>
 
+<!-- Contact Section -->
 <section id="contact">
     <div class="contact-details">
         <h2>Contact Us</h2>
@@ -307,8 +92,267 @@
     </div>
 </section>
 
+<!-- Footer -->
 <footer>
     <p>&copy; 2025 Asiful Islam. All rights reserved.</p>
 </footer>
 </body>
 </html>
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #000;
+        background-color: #fff;
+        line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    header .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin: 0 10px;
+    }
+
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+        color: #ff6347;
+    }
+
+    /* Marquee Welcome Message */
+    #welcome-marquee {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Hero Section */
+    #hero {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    #hero .cta-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        color: #000;
+        background-color: #fff;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    #hero .cta-button:hover {
+        background-color: #ff6347;
+        color: #fff;
+    }
+
+    /* Programs Section */
+    .programs-section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .program-slider {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .program-item {
+        flex: 1 1 calc(33.333% - 20px);
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #000;
+        background-color: #fff;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .program-item:hover {
+        transform: scale(1.05);
+    }
+
+    .cta-button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #000;
+        background-color: #fff;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: #ff6347;
+        color: #fff;
+    }
+
+    /* Testimonials Section */
+    #testimonials {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .testimonial {
+        flex: 1 1 calc(33.333% - 20px);
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #000;
+        background-color: #fff;
+        transition: transform 0.3s ease;
+    }
+
+    .testimonial:hover {
+        transform: scale(1.05);
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contact-form input, #contact-form textarea, #contact-form button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #000;
+    }
+
+    #contact-form button {
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #contact-form button:hover {
+        background-color: #ff6347;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+        /* Header */
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+        header nav ul {
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        /* Hero Section */
+        #hero {
+            padding: 30px 20px;
+        }
+
+        /* Programs Section */
+        .program-item {
+            flex: 1 1 calc(50% - 20px); /* Two items per row */
+        }
+
+        /* Testimonials Section */
+        .testimonial {
+            flex: 1 1 calc(50% - 20px); /* Two items per row */
+        }
+
+        /* Contact Form */
+        #contact-form {
+            max-width: 90%;
+        }
+
+        /* Marquee */
+        #welcome-marquee {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        /* Hero Section */
+        #hero {
+            padding: 20px 10px;
+        }
+
+        /* Programs Section */
+        .program-item {
+            flex: 1 1 100%; /* Full-width items */
+        }
+
+        /* Testimonials Section */
+        .testimonial {
+            flex: 1 1 100%; /* Full-width items */
+        }
+
+        /* Marquee */
+        #welcome-marquee {
+            font-size: 12px;
+        }
+
+        /* Buttons */
+        .cta-button, #contact-form button {
+            font-size: 14px;
+            padding: 8px 16px;
+        }
+    }
+
+</style>
